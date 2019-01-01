@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>FlappyBird</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+<!--game content -->
+    <div id="container">
+        <div id="bird"></div>
+        <div id="pole_1" class="pole"></div>
+        <div id="pole_2" class="pole"></div>
+        <div id="pole_3" class="nextpole"></div>
+        <div id="pole_4" class="nextpole"></div>
+        <div id="container_restart">    
+            <span id="finaltext"> GAME OVER </span>
+            <button id="restart_btn">Restart</button>
+        </div>
+    </div>    
+
+    <div id="scorepannel">
+         <p>SCORE: <span id="score">0</span></p>
+    </div>
+    
+    <div id="speedpannel">
+         <p>SPEED: <span id="speed">25</span> <span id="ext"> km/hr </span></p>
+    </div>
+   
+
+    <script src="jquery.min.js"></script> 
+    <script src="script.js"></script>
+
+</body>
+
+</html>
